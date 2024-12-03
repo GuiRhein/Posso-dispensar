@@ -1,0 +1,13 @@
+.densidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.densidade-img{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    align-self: center;
+    border: solid var(--corSecundaria) 5px;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+    width: 50vw;
+}

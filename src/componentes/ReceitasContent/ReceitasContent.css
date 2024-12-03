@@ -1,0 +1,70 @@
+
+.receita-alfa{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--corFundo);
+    padding-bottom: 6vh;
+}
+
+.receita-beta{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: var(--corFundoContraste);
+    padding-bottom: 6vh;
+}
+
+.receita-img{
+    width: 40vw;
+    border: solid var(--corSecundaria) 3px;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+}
+
+.receita-title-a{
+    display: block;
+    background-color: var(--corFundo);
+    align-self: center;
+    justify-self: center;
+    padding: 4%;
+    color: var(--corSecundaria);
+}
+.receita-title-b{
+    display: flex;
+    justify-content: center;
+    background-color: var(--corFundoContraste);
+    padding: 4%;
+    color: var(--corSecundaria);
+}
+
+.receita-card{
+    display: flex;
+    background-color: var(--corCards);
+    color: var(--corTexto);
+    list-style-type: none;
+    text-align: justify;
+    align-items: center;
+    padding: 2%;
+    font-weight: 500;
+    font-size: 20px;
+    width: 35vw;
+    border: solid var(--corSecundaria) 3px;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+    height: 40vh;
+}
+
+.receita-text{
+    background-color: var(--corCards);
+    width: 90vw;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--corTexto);
+    font-size: 24px;
+    font-weight: 300;
+    padding: 2%;
+    gap: 20px;
+    margin: 2%;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+}

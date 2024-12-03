@@ -1,0 +1,63 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.principal-titulo{
+    justify-self: center;
+    margin: 6vh 0 2vh 0;
+    color: var(--corSecundaria);
+    font-size: 48px;
+}
+
+.principal-hr{
+    border: 5px solid var(--corCards);
+    width: 70%;
+    margin-bottom: 6vh;
+    align-self: center;
+    justify-self: center;
+}
+
+.principal-cards{
+    display:flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.principal-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+
+.principal-card-titulo{
+    margin: 3vh 0 3vh 0;
+    text-align: center;
+    background-color: var(--corCards);
+    width: 100%;
+    padding: 3%;
+    color: var(--corTexto);
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+}
+
+.principal-card-itens{
+    list-style-type: none;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    background-color: var(--corCards);
+    width: 35vw;
+    padding: 3%;
+    font-size: 22px;
+    color: var(--corTexto);
+    margin-bottom: 18vh;
+    border-radius: 8%;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+
+}

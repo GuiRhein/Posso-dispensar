@@ -1,0 +1,72 @@
+
+.quemSomos{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.quemSomos-card{
+    background-color: var(--corCards);
+    width: 60vw;
+    height: 50vh;
+    font-size: 36px;
+    text-align: center;
+    padding: 2%;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+    margin: 3%;
+    color: var(--corTexto);
+}
+
+.quemSomos-card-p{
+    text-align: justify;
+}
+
+.calculadoraHome{
+    background-color: var(--corFundoContraste);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.calculadora-img{
+    width: 40vw;
+    margin: 2%;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+    margin: 3%;
+}
+
+.calculadora-contend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora-card{
+    width: 40vw;
+    background-color: var(--corCards);
+    font-size: 32px;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+    margin: 3%;
+    text-align: center;
+    color: var(--corTexto);
+    padding: 2%;
+}
+
+.calculadoraHome-anchor{
+    text-align: center;
+    padding: 2%;
+    width: 20vw;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+    background-color: var(--corCards);
+    margin: 2%;
+    color: var(--corTexto);
+
+}
+
+.calculadoraHome-anchor-a{
+    color: var(--corTexto);
+}

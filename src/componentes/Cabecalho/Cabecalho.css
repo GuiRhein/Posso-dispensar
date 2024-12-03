@@ -1,0 +1,40 @@
+.cabecalho{
+    height: 25vh;
+    background-color: var(--corPrincipal);
+    color: var(--corTexto);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 0;
+}
+
+.cabecalho-itens{
+    display: flex;
+    justify-content: space-between ;
+    width: 90%;
+    align-items: center;
+}
+.cabecalho-itens-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-itens-imagem{
+    margin: 2%;
+    width: auto;
+    height: 20vh;
+    border: solid var(--corSecundaria);
+}
+
+.cabecalho-itens-anchors{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    gap: 2vw;
+}
+
+.cabecalho-itens-anchors-a{
+    color: var(--corTexto);
+}

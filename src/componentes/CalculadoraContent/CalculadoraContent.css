@@ -1,0 +1,66 @@
+.calculadora{
+    margin: 2vh 0 20vh 0;
+    padding: 1%;
+    background-color: var(--corCards);
+    height: 110vh;
+    width: 70vw;
+    font-size: 24px;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px var(--corSecundaria);
+    color: var(--corTexto);
+}
+
+.calculadora-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.calculadora-form-input{
+    background-color: var(--corPrincipalClara);
+    width: 25vw;
+    padding: 4%;
+    margin-top: 5vh;
+    font-size: 24px;
+    margin-bottom: 5vh;
+    align-self: center;
+    color: var(--corTexto);
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.calculadora-form-input:hover{
+    opacity: 100%;
+}
+
+.calculadora-form-button{
+    background-color: var(--corPrincipalClara);
+    color: var(--corTexto);
+    margin-top: 2vh;
+    padding: 1%;
+    opacity: 100%;
+}
+
+.calculadora-form-button:disabled{
+    opacity: 20%;
+}
+
+#numero, #formaFarmaceutica, #horario, #densidade{
+    padding: 3%;
+    width: 20vw;
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--corCards);
+    color: var(--corTexto);
+    text-decoration: none;
+}
+.calculadora-form-label{
+    margin-top: 3vh;
+    color: var(--corTexto);
+}
+
+.calculadora-resposta{
+    margin-bottom: 5vh;
+}
+
